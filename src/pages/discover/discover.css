@@ -1,0 +1,39 @@
+.discover-page h5.list-title{
+    font-weight: bold;
+}
+.card.list-music-item {
+    background-color: transparent;
+    cursor: pointer;
+    border: 0px;
+}
+.card.list-music-item img{
+    border-radius: 5%;
+}
+.card.list-music-item p{
+    font-weight: bold;
+}
+.card-body {
+    padding: 0;
+}
+.list-info{
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.card-body a{
+    text-decoration: none;
+}
+.list-info .list-title{
+    transition: 0.4s;
+    color: white;
+    font-weight: bold;
+}
+.list-info .list-description{
+    color: black;
+    font-size: 0.9em;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.card-body:hover a .list-title {
+    color: black;
+}

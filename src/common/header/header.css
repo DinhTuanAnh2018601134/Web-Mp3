@@ -1,0 +1,55 @@
+input.search-music {
+    border: 0px;
+    border-radius: 20px;
+    background-color: #ec537c;
+    width: 100%;
+}
+::placeholder {
+    color: white;
+}
+.header {
+    height: 9%;
+    right: 0px;
+    display: flex;
+    position: fixed;
+    z-index: 888;
+    background-image: -webkit-linear-gradient(left,#ec5252,#6e1a52);
+    box-shadow: 0px 1px #6e1a52;
+}
+.header-right {
+    width: 40%;
+}
+.header-left {
+    width: 60%;
+    display: flex;
+    position: relative;
+}
+.header-left .search-music{
+    position: absolute;
+    height: 80%;
+}
+.fa.fa-search, .fa.fa-user{
+    color: white;
+}
+ul.list-manage {
+    display: flex;
+    list-style: none;
+}
+li.list-manage-item {
+    width: 40px;
+    height: 35px;
+    background-color: #ec537c;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.photo-url {
+    width: 40px;
+    height: 35px;
+    border-radius: 50%;
+}
+li.list-manage-item:hover{
+    background-color: #6e1a52;
+}

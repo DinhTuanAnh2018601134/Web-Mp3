@@ -1,0 +1,136 @@
+.dashboard{
+    padding-left: 0; 
+    height: 12%; 
+    background-image: -webkit-linear-gradient(left,#6e1a52,#ec5252);
+    position: fixed;
+    bottom: 0px;
+    z-index: 999;
+}
+.dashboard .row{
+    width: 100%;
+    height: 100%;
+}
+.dashboard-left{
+    width: 100%;
+    height: 100%;
+    padding-right: 0px;
+}
+.cd-thumbnail{
+    width: 100%;
+    height: 100%;
+}
+.cd-thumbnail .col-4{
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+}
+.cd-thumbnail .col-4 img{
+    width: 82%;
+    height: 90%;
+    border-radius: 50%;
+}
+.cd-thumbnail .info-song{
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+}
+.cd-thumbnail .info-song .title{
+    font-size: 16px;
+    font-weight: bold;
+}
+.cd-thumbnail .info-song .artist-name{
+    font-size: 14px;
+}
+/* control */
+.player{
+    margin: auto;
+}
+.player .control{
+    text-align: center;
+}
+.player .control .btn{
+    cursor: pointer;
+    color: white;
+    transition: 0.4s;
+}
+.player .control .btn:hover {
+    color: rgb(15, 15, 15);
+}
+.player .control .btn-toggle-play{
+    position: relative;
+    height: 100%;
+    margin: auto;
+}
+.control .btn-toggle-play .icon-pause {
+    display: none;
+}
+  
+.control .btn-toggle-play.playing .icon-pause {
+    display: inline-block;
+}
+
+.control .btn-toggle-play.playing .icon-play {
+    display: none;
+}
+.btn-active {
+    color: rgb(15, 15, 15);
+}
+.player .audio-duration {
+    display: flex;
+}
+.player .audio-duration span{
+    font-size: 12px;
+}
+.audio-duration .progress{
+    cursor: pointer;
+    width: 100%;
+    -webkit-appearance: none;
+    height: 4px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+.player-setting{
+    margin: auto;
+    display: flex;
+}
+.player-setting .btn{
+    color: white;
+    cursor: pointer;
+}
+.btn-volume .fa-volume-mute {
+    display: none;
+}
+  
+.btn-volume.muted .fa-volume-mute {
+    display: inline-block;
+}
+
+.btn-volume.muted .fa-volume-up {
+    display: none;
+}
+.player-setting .progress-volume{
+    cursor: pointer;
+    width: 50%;
+    height: 4px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+}
+.hidden-playlist.mt-2 {
+    background-color: #6e1a52;
+    cursor: pointer;
+    height: 10%;
+    width: 9%;
+    margin: auto;
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.hidden-playlist.mt-2:hover{
+    background-color: #ec537c;
+}

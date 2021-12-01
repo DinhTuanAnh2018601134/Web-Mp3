@@ -1,0 +1,61 @@
+.thumbnail-top img {
+    border-radius: 5%;
+}
+.info-list-music.col-4 {
+    text-align: center;
+    position: fixed;
+}
+.info-list-music.col-4 .title p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn.btn-danger{
+    cursor: pointer;
+}
+.list-song table{
+    color: white;
+}
+.list-song table tbody tr{
+    transition: 0.4s !important;
+    cursor: pointer;
+}
+.song-thumbnail{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0;
+    cursor: pointer;
+}
+.song-thumbnail img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10%;
+}
+.song-info{
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.song-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.song-artist{
+    font-size: 11px;
+}
+.setting .dropdown-menu-right{
+    background-color: #ec5252;
+}
+tr {
+    border-bottom: 1px solid;
+}
+td.row{
+    padding: 0;
+}
+td.row, td.text-center, td.setting {
+    border: 0;
+}
+td.setting{
+    float: right;
+    cursor: pointer;
+}
